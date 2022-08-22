@@ -1,0 +1,1 @@
+export const SAMPLE_REDUCER = 'SAMPLE_REDUCER'
