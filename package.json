@@ -20,13 +20,13 @@
     "envalid": "^7.3.1",
     "framer-motion": "^7.2.0",
     "next": "^13.0.6",
-    "next-svgr": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.3",
+    "@svgr/webpack": "^6.5.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@types/node": "18.7.9",
