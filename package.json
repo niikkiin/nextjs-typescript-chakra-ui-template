@@ -14,7 +14,7 @@
     "test:update-snapshots": "jest -c jest.config.js --updateSnapshot"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.4.3",
+    "@chakra-ui/react": "^2.6.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "envalid": "^7.3.1",
