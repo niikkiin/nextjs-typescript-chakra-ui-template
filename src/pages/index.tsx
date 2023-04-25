@@ -1,26 +1,25 @@
-import { Box, Heading } from '@chakra-ui/react'
-import type { NextPage } from 'next'
-
-import SampleComponent from 'components/SampleComponent'
-
-import useSampleHook from 'hooks/useSampleHook'
-
-import { useSampleContext } from 'store/contexts/sampleContext'
-
-import Layout from 'layout'
+import { AspectRatio, Center, Stack, Heading } from '@chakra-ui/react'
+import { NextPage } from 'next'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
-  const { isOpen } = useSampleContext()
-  const { sampleField } = useSampleHook('test sample')
   return (
-    <Layout>
-      <Box>
-        <Heading>GM Nikki</Heading>
-        SAMPLE FOR CONTEXT: {isOpen.toString()}
-        SAMPLE FOR HOOK: {sampleField.toString()}
-        <SampleComponent />
-      </Box>
-    </Layout>
+    <Center h="100vh">
+      <Stack align="center" spacing="8">
+        <AspectRatio ratio={283 / 64} w="200px">
+          <Image
+            src="/vercel.svg"
+            alt="vercel"
+            fill
+            sizes="(max-width: 768px) 100vw,
+          (max-width: 1200px) 50vw,
+          33vw"
+          />
+        </AspectRatio>
+
+        <Heading size="lg">NextJS-Typescript-Chakra-UI-Template</Heading>
+      </Stack>
+    </Center>
   )
 }
 

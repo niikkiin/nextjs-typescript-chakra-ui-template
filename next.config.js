@@ -1,17 +1,16 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 /** @type {import('next').NextConfig} */
 
-const withPlugins = require('next-compose-plugins')
-const withSvgr = require('next-svgr')
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
-
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  eslint: {
-    ignoreDuringBuilds: true,
+  swcMinify: true,
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: ['@svgr/webpack'],
+    })
+
+    return config
   },
 }
-
-module.exports = withPlugins([withBundleAnalyzer, withSvgr], nextConfig)
