@@ -55,7 +55,6 @@
     "arrowParens": "always",
     "printWidth": 80,
     "requirePragma": false,
-    "semi": false,
     "singleQuote": true,
     "trailingComma": "es5",
     "useTabs": false

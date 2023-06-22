@@ -112,8 +112,6 @@
         },
         "warnOnUnassignedImports": true
       }
-    ],
-    "semi": "off",
-    "@typescript-eslint/semi": ["error", "never"]
+    ]
   }
 }

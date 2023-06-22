@@ -1,6 +1,6 @@
-'use client'
-import { AspectRatio, Center, Stack, Heading } from '@chakra-ui/react'
-import Image from 'next/image'
+'use client';
+import { AspectRatio, Center, Stack, Heading } from '@chakra-ui/react';
+import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
         <Heading size="lg">NextJS-Typescript-Chakra-UI-Template</Heading>
       </Stack>
     </Center>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
