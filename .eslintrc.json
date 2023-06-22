@@ -99,6 +99,11 @@
             "pattern": "assets/**",
             "group": "internal",
             "position": "before"
+          },
+          {
+            "pattern": "config/**",
+            "group": "internal",
+            "position": "before"
           }
         ],
         "alphabetize": {

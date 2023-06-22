@@ -1,8 +1,8 @@
+'use client'
 import { AspectRatio, Center, Stack, Heading } from '@chakra-ui/react'
-import { NextPage } from 'next'
 import Image from 'next/image'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <Center h="100vh">
       <Stack align="center" spacing="8">
