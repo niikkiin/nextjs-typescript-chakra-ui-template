@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.1](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/compare/v1.2.0...v1.2.1) (2023-06-22)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @commitlint/config-conventional ([644e7fb](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/644e7fbe647f83d11ebbdbdffdb26fd515ba6555))
+* **deps-dev:** bump lint-staged from 13.2.1 to 13.2.2 ([7f2fbef](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/7f2fbef7cc68d65440dd9379972e7c1540646770))
+* **deps-dev:** bump prettier from 2.8.0 to 2.8.8 ([df13bc2](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/df13bc2d9290dd4ca8bc33395d846f70fa5b13e5))
+* update packages ([0169cef](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/0169cef36a07b89fd72064ed2567c24d2ca84f75))
+* upgrade to nextjs13 latest ([8aac49c](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/8aac49c1367d1365602e9a3028379f8a437e0d08))
+
 ## [1.2.0](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/compare/v1.1.0...v1.2.0) (2023-04-25)
 
 
