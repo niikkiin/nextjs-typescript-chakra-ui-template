@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/compare/v1.2.2...v1.2.3) (2024-02-16)
+
+
+### Miscellaneous
+
+* **main:** release 1.2.2 ([#32](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/issues/32)) ([b415f19](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/b415f19adefa75ec26f71ca6bbbf91de4dd49ecf))
+
 ## [1.2.2](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/compare/v1.2.1...v1.2.2) (2024-02-16)
 
 
