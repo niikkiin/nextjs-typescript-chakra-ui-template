@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.2](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/compare/v1.2.1...v1.2.2) (2024-02-16)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @typescript-eslint/parser from 5.48.1 to 5.62.0 ([#27](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/issues/27)) ([366b7ac](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/366b7ac9c9d001237189b9be87bd57f3119e3996))
+* **deps-dev:** bump lint-staged from 13.2.2 to 14.0.1 ([#29](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/issues/29)) ([58a8920](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/58a8920154d81a9add2d4f06ae6218100a8760c0))
+* **deps:** bump @emotion/styled from 11.10.5 to 11.11.0 ([#25](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/issues/25)) ([a86d41a](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/a86d41a2ed033aad34e89d8f5bde8e0afcf30cac))
+* **deps:** bump react-icons from 4.4.0 to 4.10.1 ([#23](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/issues/23)) ([f403b7e](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/f403b7e0adb321b455058da39a14dfe6cb8618cd))
+* update eslint and prettier config ([d9a2a91](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/commit/d9a2a9106d00afde2ad47f0dca16ec998aa9c6db))
+
 ## [1.2.1](https://github.com/niikkiin/nextjs-typescript-chakra-ui-template/compare/v1.2.0...v1.2.1) (2023-06-22)
 
 
